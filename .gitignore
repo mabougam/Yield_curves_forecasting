@@ -1,0 +1,23 @@
+# Jupyter notebooks (project has been modularized into .py files)
+*.ipynb
+.ipynb_checkpoints/
+
+# Python cache and bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+cganenv/
+venv/
+env/
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large or generated artifacts (uncomment if you don't want these tracked)
+# *.csv
+# *.gif
