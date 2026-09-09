@@ -2,7 +2,7 @@
 
 import matplotlib.pyplot as plt
 from config import MATURITY_ORDER
-from evaluation.inference import generate_samples
+from Evaluation.inference import generate_samples
 
 
 def plot_generated_paths(G, X_test_n, Y_test_n, global_mean, global_std, device,

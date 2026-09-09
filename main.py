@@ -7,8 +7,8 @@ from data.windowing import (build_windows, train_test_split,
 from models.generator import Generator
 from models.discriminator import Discriminator
 from training.train import train
-from evaluation.visualization import plot_generated_paths, plot_curve_shapes_grid
-from evaluation.diversity import compute_sample_std
+from Evaluation.visualisation import plot_generated_paths, plot_curve_shapes_grid
+from Evaluation.diversity import compute_sample_std
 
 
 def main():
