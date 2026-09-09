@@ -4,6 +4,7 @@ import pandas as pd
 
 def load_merged_data(path):
     df = pd.read_csv(path)
+    df['Date'] = pd.to_datetime(df['Date'], format='%d/%m/%Y')
     df = df.sort_values(by='Date', ascending=True).reset_index(drop=True)
     return df
 
